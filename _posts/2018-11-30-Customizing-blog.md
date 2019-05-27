@@ -13,7 +13,7 @@ tags:
 ![image](https://user-images.githubusercontent.com/33619494/58427169-cdc4dc00-80d9-11e9-8c3e-c84912407b6b.png)
 
 Favicon의 정의는 다음과 같다
-:  인터넷 웹 브라우저의 주소창에 표시되는 웹사이트나 웹페이지를 대표하는 아이콘이다
+> 인터넷 웹 브라우저의 주소창에 표시되는 웹사이트나 웹페이지를 대표하는 아이콘이다
 
 ### Favicon 적응기
 
