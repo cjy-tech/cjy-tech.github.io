@@ -108,4 +108,4 @@ jekyll new cjy-tech.github.io
 ### 더 해보기
 - 블로그를 꾸미기 위해서는 다양한 [Jekyll테마를 적용](https://cjy-tech.github.io/Themes-for-jekyll-blog/) 할 수 있다.
 - [Markdown 컨텐츠를 이용하여 본격적으로 블로그 포스팅]()을 해 보자.
-- 블로그 내용의 댓글 추가를 위해 [Disqus를 적용]() 해 보자.
+- 블로그 댓글 및 커스터마이징을 [해 보자]().
