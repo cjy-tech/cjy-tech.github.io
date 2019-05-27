@@ -112,5 +112,5 @@ origin  https://github.com/cjy-tech/cjy-tech.github.io.git (push)
 ```
 4. 테스트
   * 수정사항을 나의 레포지토리에 push하여 확인해보자.
-  * cj-tech.github.io 주소로 접속하면 이전과는 다른 테마가 적용된 블로그가 표시된다!
+  * https://cjy-tech.github.io 주소로 접속하면 이전과는 다른 테마가 적용된 블로그가 표시된다!
   ![image](https://user-images.githubusercontent.com/33619494/58419355-571de380-80c5-11e9-9c7b-e6e30336b7f9.png)
