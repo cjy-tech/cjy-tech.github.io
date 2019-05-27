@@ -74,7 +74,7 @@ Jekyll 은 기본 디렉토리에 있는 테마의 기본 파일들을 확인하
 
 ### 테마 변경하기
 1. Jekyll Now Repository Clone
-  * 나의 블로그 레포지토리 이름으로 받아오기 위해 원래 디렉토리는 삭제하고 Jasper 테마를 받는다.
+  * 나의 블로그 레포지토리 이름으로 받아오기 위해 원래 디렉토리는 삭제하고 jekyll-now 테마를 받는다.
 ```bash
 git clone git@github.com:barryclark/jekyll-now.git cjy-tech.github.io --depth 1
 ```
