@@ -8,13 +8,12 @@ name: JunYoung's Blog
 # Short bio or description (displayed in the header)
 description: DevOps WannaBe
 
-#
-# Flags below are optional
-#
-
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://user-images.githubusercontent.com/33619494/58420041-38205100-80c7-11e9-8fdd-a27c4e7504dd.png
 
+#
+# Flags below are optional
+#
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
@@ -51,7 +50,6 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: © 2019 cjy-tech
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
