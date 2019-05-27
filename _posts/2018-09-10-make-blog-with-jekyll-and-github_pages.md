@@ -10,11 +10,10 @@ tags:
 
 1. Ruby 설치
   * Ubuntu 운영체제 이므로 `apt`패키지관리자로 설치한다.
-
 ```bash
 sudo apt-get install ruby-full -y
 ```
-  * 다른 설치 방법은 [참고](https://www.ruby-lang.org/ko/documentation/installation/).
+  * 다른 설치 방법은 [참고](https://www.ruby-lang.org/ko/documentation/installation/)
 2. Jekyll, Bundler설치
   * `gem`이라는 Ruby의 패키지 관리자를 사용해서 `jekyll`과 `bundler`설치
 ```bash
