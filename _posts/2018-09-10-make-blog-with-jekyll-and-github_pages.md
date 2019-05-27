@@ -20,6 +20,7 @@ sudo apt-get install ruby-full -y
 ```bash
 sudo gem install jekyll bundler
 ```
+
 ### Jekyll 테스트
 
 1. 블로그 디렉토리 생성
@@ -39,6 +40,7 @@ jekyll new $NAME
 |-- about.md
 `-- index.md
 ```
+
 2. 로컬에서 서버 띄우기
 상기 파일들로 이루어진 블로그를 실행해본다. `Gemfile`이 위치한 `test`디렉토리에서 아래 명령을 실행한다.
 ```bash
@@ -57,6 +59,7 @@ Configuration file: /home/cjy/test/_config.yml
     Server address: http://127.0.0.1:4000/
   Server running... press ctrl-c to stop.
 ```
+
 3. 접속 테스트
 상기 로그에 나온대로 http://127.0.0.1:4000 에 접속하여 테스트 블로그가 잘 나오는지 확인한다.
 ![image](https://user-images.githubusercontent.com/33619494/58391842-51e37900-8072-11e9-82ce-284be7e55f2d.png)
@@ -64,6 +67,7 @@ Configuration file: /home/cjy/test/_config.yml
 ### GitHub Pages 생성
 자신의 서버에서 확인하였으니, 이제 온라인으로 다른 곳에서도 접속하여 확인 할 수 있는 진짜 블로그를 만들어 보겠다.
 블로그를 만들기 위한 도구는 GitHub Pages를 이용할 것이다.
+
 1. GitHub Pages로 repository 생성
 [GitHub](https://github.com/)에 접속하여 새로운 Repository를 생성한다.
 ![image](https://user-images.githubusercontent.com/33619494/58393109-13e95380-8078-11e9-8f7c-4c2dd7909b68.png)
