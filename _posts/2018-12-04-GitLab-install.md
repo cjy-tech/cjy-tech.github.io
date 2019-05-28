@@ -46,6 +46,7 @@ web:
 | /srv/gitlab/data |  /var/opt/gitlab  | For storing application data |
 | /srv/gitlab/logs |  /var/log/gitlab  | For storing logs |
 | /srv/gitlab/config |  /etc/gitlab  | For storing the GitLab configuration files |
+
 - `/etc/gitlab/gitlab.rb` 파일에는 `GITLAB_OMNIBUS_CONFIG` 환경변수로 준 값들은 저장되지 않는다!
 - [기타 환경 변수](https://docs.gitlab.com/ce/administration/environment_variables.html)는 링크를 참고
 
