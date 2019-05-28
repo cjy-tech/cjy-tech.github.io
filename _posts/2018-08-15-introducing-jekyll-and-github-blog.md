@@ -12,6 +12,7 @@ tags:
 ### Jekyll
 [공식 사이트](https://jekyllrb-ko.github.io/docs/home/#jekyll-%EC%9D%B4%EB%9E%80%EA%B2%8C-%EB%AD%90%EC%A3%A0-%ED%95%9C-%EB%A7%88%EB%94%94%EB%A1%9C)의 한글화된 문서를 참고하면 Jekyll이 아래와 같이 정의되어 있다:  
 > Jekyll 은 아주 심플하고 블로그 지향적인 정적 사이트 생성기입니다.
+
 Markdown 형식으로 텍스트 파일을 작성하면 [Liquid](https://shopify.github.io/liquid)기능이 추가된 HTML 파일로 변환해주는 도구이다.  
 즉 작성자가 Markdown으로 내용만 작성하면 Jekyll이 웹 브라우저에 알아서 잘 꾸며서 뿌려준다.
 
