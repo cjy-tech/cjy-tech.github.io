@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jekyll 과 GitHub Pages 소개
+title: Go lang 개발환경 만들기 with vim-go
 tags:
   - go
 ---
@@ -22,6 +22,7 @@ Go 언어를 이용한 개발 공부를 하기 위해 ubuntu 리눅스에 go를 
 - `vim` 커맨드로 vim 실행 후, `:PluginInstall` 명령으로 설치
 - 이후, `*.go`로 끝나는 파일 작성하면 아래와 같이 기본적으로 필요한 양식이 포함되어 나타난다.
 ```go
+
 package main
   
 import "fmt"
@@ -29,4 +30,5 @@ import "fmt"
 func main() {
         fmt.Println("vim-go")
 }
+
 ```
