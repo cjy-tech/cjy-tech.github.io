@@ -21,8 +21,8 @@ Go 언어를 이용한 개발 공부를 하기 위해 ubuntu 리눅스에 go를 
 - `~/.vimrc`에 `Plugin 'fatih/vim-go'`추가
 - `vim` 커맨드로 vim 실행 후, `:PluginInstall` 명령으로 설치
 - 이후, `*.go`로 끝나는 파일 작성하면 아래와 같이 기본적으로 필요한 양식이 포함되어 나타난다.
-```go
 
+```go
 package main
   
 import "fmt"
@@ -31,4 +31,5 @@ func main() {
         fmt.Println("vim-go")
 }
 ```
+
 - `vim` 커맨드로 vim 실행 후, `:GoInstallBinaries` 명령으로 추가적인 바이너리들 설치
