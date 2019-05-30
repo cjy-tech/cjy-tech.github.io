@@ -16,12 +16,14 @@ tags:
 ### VIM 설치
 - `vim` 커맨드가 작동하지 않아 `vi`로 대신 살펴봐도 분명 `vim`이라고 뜬다.
 - `apt list --installed | grep vim` 으로 설치된 패키지를 봐도 아래와 같이 분명 vim이 설치돼 있다.
+
 ```
 vim-common/bionic,bionic,now 2:8.0.1453-1ubuntu1 all [installed]
 vim-tiny/bionic,now 2:8.0.1453-1ubuntu1 amd64 [installed]
 ```
+
 - 하지만 `vim` 커맨드를 치면 설치하라고 나온다.
-```
+
 ```
 Command 'vim' not found, but can be installed with:
 
@@ -33,6 +35,7 @@ sudo apt install vim-athena
 sudo apt install vim-gtk
 sudo apt install vim-nox
 ```
+
 - 그래서 `sudo apt install vim -y` 명령으로 설치했다.
 
 ### Vundle 설치
@@ -42,6 +45,7 @@ sudo apt install vim-nox
 `sudo apt install git curl -y`
 - `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 - 홈 디렉토리에 `.vimrc`파일을 만들고 아래 내용을 붙여넣기 한다.
+
 ```
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -76,6 +80,7 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 ```
+
 - `vim` 커맨드로 vim 실행 후, `:PluginInstall` 명령으로 설치한다.
 
 ### 설치환경
@@ -96,6 +101,7 @@ filetype plugin indent on    " required
 - 컴파일 하기 전 지원하는 언어들을 특정하여 컴파일 할 수 있다.
 - 나의 경우 Go 언어 지원을 위해 `--go-completer` 플래그를 주었다.
 - 다른 컴파일 옵션은 [공식문서](https://github.com/Valloric/YouCompleteMe#linux-64-bit)를 참고하자.
+
 ```bash
 cd ~/.vim/bundle/YouCompleteMe
 python3 install.py --go-completer
