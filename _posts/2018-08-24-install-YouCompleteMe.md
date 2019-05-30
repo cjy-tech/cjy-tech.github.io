@@ -77,7 +77,7 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 ```
-- `:PluginInstall` 명령으로 설치한다.
+- `vim` 커맨드로 vim 실행 후, `:PluginInstall` 명령으로 설치한다.
 
 ### 설치환경
 - Ubuntu 18.04
