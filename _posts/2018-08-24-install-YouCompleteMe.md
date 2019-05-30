@@ -21,6 +21,7 @@ vim-common/bionic,bionic,now 2:8.0.1453-1ubuntu1 all [installed]
 vim-tiny/bionic,now 2:8.0.1453-1ubuntu1 amd64 [installed]
 ```
 - 하지만 `vim` 커맨드를 치면 설치하라고 나온다??
+
 ```bash
 Command 'vim' not found, but can be installed with:
 
@@ -32,6 +33,7 @@ sudo apt install vim-athena
 sudo apt install vim-gtk
 sudo apt install vim-nox
 ```
+
 - 그래서 `sudo apt install vim -y` 명령으로 설치했다.
 
 ### Vundle 설치
