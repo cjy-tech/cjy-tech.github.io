@@ -20,7 +20,7 @@ tags:
 vim-common/bionic,bionic,now 2:8.0.1453-1ubuntu1 all [installed]
 vim-tiny/bionic,now 2:8.0.1453-1ubuntu1 amd64 [installed]
 ```
-- 하지만 `vim` 커맨드를 치면 설치하라고 나온다??.  
+- 하지만 `vim` 커맨드를 치면 설치하라고 나온다??
 ```bash
 Command 'vim' not found, but can be installed with:
 
@@ -41,7 +41,7 @@ sudo apt install vim-nox
 `sudo apt install git curl -y`
 - `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 - 홈 디렉토리에 `.vimrc`파일을 만들고 아래 내용을 붙여넣기 한다.
-```.vimrc
+```
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
