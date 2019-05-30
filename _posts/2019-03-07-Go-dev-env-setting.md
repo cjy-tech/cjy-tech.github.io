@@ -17,7 +17,7 @@ Go 언어를 이용한 개발 공부를 하기 위해 ubuntu 리눅스에 go를 
 - 홈 디렉토리에 `go` 폴더를 생성한다.
 
 ### Vim-go 설치
-- Vundle이용해서 설치한다.
+- [Vundle](https://github.com/VundleVim/Vundle.vim#quick-start)이용해서 설치한다.
 - `~/.vimrc`에 `Plugin 'fatih/vim-go'`추가
 - `vim` 커맨드로 vim 실행 후, `:PluginInstall` 명령으로 설치
 - 이후, `*.go`로 끝나는 파일 작성하면 아래와 같이 기본적으로 필요한 양식이 포함되어 나타난다.
