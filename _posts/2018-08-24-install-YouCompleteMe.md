@@ -16,12 +16,12 @@ tags:
 ### VIM 설치
 - `vim` 커맨드가 작동하지 않아 `vi`로 대신 살펴봐도 분명 `vim`이라고 뜬다.
 - `apt list --installed | grep vim` 으로 설치된 패키지를 봐도 아래와 같이 분명 vim이 설치돼 있다.
-```bash
+```
 vim-common/bionic,bionic,now 2:8.0.1453-1ubuntu1 all [installed]
 vim-tiny/bionic,now 2:8.0.1453-1ubuntu1 amd64 [installed]
 ```
 - 하지만 `vim` 커맨드를 치면 설치하라고 나온다??
-```bash
+```
 Command 'vim' not found, but can be installed with:
 
 sudo apt install vim
