@@ -20,7 +20,7 @@ tags:
 vim-common/bionic,bionic,now 2:8.0.1453-1ubuntu1 all [installed]
 vim-tiny/bionic,now 2:8.0.1453-1ubuntu1 amd64 [installed]
 ```
-- 하지만 `vim` 커맨드를 치면 설치하라고 나온다.
+- 하지만 `vim` 커맨드를 치면 설치하라고 나온다??.  
 ```bash
 Command 'vim' not found, but can be installed with:
 
