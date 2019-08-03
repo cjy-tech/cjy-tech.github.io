@@ -15,6 +15,7 @@ AWS를 이용한 Private 멀티 AZ에 존재하는 Nginx web 서버 구성에 �
 - Private 서브넷을 위한 라우팅 테이블을 각각 만들고 각각의 NAT 게이트웨이를 연결한다.
 - Private 인스턴스를 각각 서브넷에 실행한다.
 - Public 서브넷에 Bastion host를 두어 Private 인스턴스에 22번 포트로 접근가능하게 한다.
+
 #### Web 서버
 - Private 서브넷에 Nginx web server를 설치하고 가동시킨다.
 - ALB를 생성하여 각 Private 인스턴스로 접근가능한지 확인한다.
