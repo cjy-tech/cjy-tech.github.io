@@ -20,10 +20,12 @@
 - Terraform을 사용하면 생성하고자 하는 인프라를 코드로 정의하여 여러번 재활용 가능한 장점이 있다.
 - 또한 terraform module을 사용하면 코드의 반복도 어느정도 줄일 수 있다.
 - 리소스를 정의하고, 그 리소스를 반복적으로 사용하는 모듈을 각각 생성해주면 된다.
+
 > 리소스
 
 ```terraform
 resource "aws_cloudfront_distribution" "default" {
+gg
   
   enabled             = "${var.enabled}"
   is_ipv6_enabled     = "${var.is_ipv6_enabled}"  
