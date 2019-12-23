@@ -25,8 +25,6 @@
 
 ```terraform
 resource "aws_cloudfront_distribution" "default" {
-gg
-  
   enabled             = "${var.enabled}"
   is_ipv6_enabled     = "${var.is_ipv6_enabled}"  
   price_class         = "${var.price_class}"
