@@ -252,3 +252,5 @@ AWS 공식문서
 
 [Amazon EKS now supports Kubernetes version 1.24](https://aws.amazon.com/ko/blogs/containers/amazon-eks-now-supports-kubernetes-version-1-24/)  
 AWS 블로그 글
+
+https://github.com/younsl/younsl.github.io
