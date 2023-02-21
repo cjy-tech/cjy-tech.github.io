@@ -18,8 +18,8 @@
 위 조건을 만족하지 않을 경우 여러 태스크 정의에 따로 컨테이너를 배포하는 것이 좋음
 
 ### ECS task role
-- 태스크가 aws 리소스등을 사용할 때 필요한 role과 policy
-- `Task execution role`과 다름, 해당 role은 컨테이너 에이전트가 ecs 서비스와 작업하기 위한 role과 policy
+- 태스크와 서비스가 aws 리소스 등 을 사용할 때 필요한 role과 policy
+- `Task execution role`과 다름, 해당 role은 컨테이너 에이전트가 ecs 서비스와 작업하기 위한 role과 policy, ecr에서 이미지 받아오기 등
 
 ## ECS task
 - 독립 실행형 태스크(배치같은)를 실행하거나 서비스의 일부로 태스크를 실행할 수 있음
